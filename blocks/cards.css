@@ -40,7 +40,7 @@
 }
 .cards__image {
   margin-top: 5%;
-  max-width: 100%;
+  max-width: 50%;
   height: 300px;
   object-fit: cover;
   margin-bottom: 10px;
