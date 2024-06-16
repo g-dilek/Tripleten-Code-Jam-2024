@@ -7,7 +7,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
   line-height: 0.2;
   background-color: rgb(243, 243, 243);
-  background-image: url(/images/vec_mountain-bg.jpg);
+  background-image: url(../images/vec_mountain-bg.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 0px;
