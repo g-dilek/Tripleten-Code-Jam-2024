@@ -25,15 +25,10 @@ The data collected and used for this project was downloaded from Kaggle. It can 
 The data includes:
 
 • park names
-
 • locations in state and latitude and longitude
-
 • a description of each park
-
 • the area of each park as of 2021, in acres
-
 • the number of visitors in 2021
-
 • the date each park was established
 
 Before we could analyze the data, preprocessing was required. Each row in the data set represents a park. There were no duplicate values. The ‘Image’ and ‘Unnamed’ columns were empty and meaningless, so they were dropped. Then, the columns were renamed to fit style guidelines. We then used a locate to reduce the data set down to the 9 parks located in California. The date the park was established was then converted from a string to datetime format.
