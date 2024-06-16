@@ -1,8 +1,8 @@
-### Tripleten Code Jam 2024
+## Tripleten Code Jam 2024
 
 This is a project created for the June 2024 Code Jam at Tripleten. It was created using HTML, CSS, and Javascript, based on the following.
 
-## Design Brief
+### Design Brief
 
 For the June Code Jam, we challenge the participants to create an optimal route for
 
@@ -13,11 +13,11 @@ For the June Code Jam, we challenge the participants to create an optimal route 
 
 Our code jam team has decided to create a website that uses data to calculate the optimal route to experience all nine California National Parks.
 
-## Authors
+### Authors
 
 Created by the Redwood Rangers: Grace Persion, Laura Ferguson, Mike Twersky, and Dale Myers
 
-## Core technologies
+### Core technologies
 
 - HTML
 - CSS
@@ -34,11 +34,11 @@ Created by the Redwood Rangers: Grace Persion, Laura Ferguson, Mike Twersky, and
 
 In addition to the above libraries, we also used the OSRM (Open Source Routing Machine) API
 
-## Link
+### Link
 
 You can view and interact with the site here: https://g-dilek.github.io/Tripleten-Code-Jam-2024
 
-## Run locally
+### Run locally
 
 You can also clone our Github repo:
 
@@ -51,9 +51,9 @@ You can also clone our Github repo:
 `npm run dev`
 `
 
-### Results
+## Results
 
-## Introduction
+### Introduction
 
 You can view the Jupyter Notebook of our data here: https://g-dilek.github.io/Tripleten-Code-Jam-2024/data/data.html
 
@@ -78,7 +78,7 @@ Before we could analyze the data, preprocessing was required. Each row in the da
 Next, feature engineering was required to extract the latitude and longitude as numeric data types from the location columns. We created a new dataframe named location to split the state name from the coordinates, split the coordinates into two new columns, and wrote a function to convert the coordinates from minute format to degree decimal format. Finally, these new formatted longitude and latitude columns and state columns were added back to the original dataframe, and the original location column was dropped.
 After that, the name and state columns were further cleaned.
 
-## Visualizations
+### Visualizations
 
 Our first visualization plots the year each park was established, the number of visitors in 2021, and allows the end-user to toggle which park is being viewed. This scatterplot shows visually the lack of a relationship between the age of the park and its number of visitors in the year 2021.
 
@@ -86,13 +86,13 @@ The second visualization viewable is a regplot showing the minimal correlation b
 
 The next visualization plots the location of each of the 9 national parks on a US map. The size of each point correlates to the popularity of each park in 2021, while the color code corresponds to the dataframe index of each park. The end-user can toggle which indices are viewable at a time and deduct visually and numerically each parks popularity.
 
-## Model
+### Model
 
 To prepare the model, we first created a distance matrix. This is a matrix of all distances between each park. To create it, we first wrote a function to get those distance from the latitude and longitude coordinates using the OSRM API. We then took those distances and put them into a second function that returns a distance matrix. Finally, the values of the distance matrix were converted to an array so that it could fed into the model.
 
 The approach that we took was the brute force method. This method calculates all possible combinations of routes between all the parks, without going to the same park twice, and returns the optimal order and shortest total distance travelled. To implement the brute force method, we used the python TSP library’s solve_tsp_brute_force package.
 
-## Conclusion
+### Conclusion
 
 The optimal route determined using the brute force method was as follows:
 Channel Islands > Joshua Tree > Death Valley > Yosemite > Lassen Volcanic > Redwood > Pinnacles > Sequoia > Kings Canyon.
