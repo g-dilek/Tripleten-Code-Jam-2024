@@ -1,0 +1,6 @@
+.footer {
+  color: white;
+  display: flex;
+  gap: 50px;
+  background-color: black;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 0.2;
+  background-color: rgb(243, 243, 243);
+  background-image: url(../images/vec_mountain-bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  background-position: center top;
+}
+
+/* Scroll effect */
+.mouse-wheel {
+  & .car {
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    width: 150px;
+    filter: hue-rotate(300deg) brightness(100%) saturate(120%) sepia(0.5);
+  }
+}
