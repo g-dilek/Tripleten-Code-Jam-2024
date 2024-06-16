@@ -25,3 +25,13 @@ body {
     filter: hue-rotate(300deg) brightness(100%) saturate(120%) sepia(0.5);
   }
 }
+
+@media screen and (max-width: 600px) {
+  * {
+    line-height: 1;
+  }
+
+  .mouse-wheel {
+    visibility: hidden;
+  }
+}

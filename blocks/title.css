@@ -4,6 +4,7 @@
   font-family: Lora, "Times New Roman", serif;
   font-size: 3.5rem;
   padding: 11% 0px;
+  line-height: 0.6;
 }
 .title__subtitle {
   font-family: Lora, "Times New Roman", serif;
@@ -11,6 +12,7 @@
   font-size: 3.125rem;
   margin-top: 10px;
   padding-bottom: 6%;
+  line-height: 0.6;
 }
 
 .title__subheading {
@@ -20,4 +22,40 @@
   margin-left: 10%;
   font-family: Lora, "Times New Roman", serif;
   font-size: 1.3rem;
+}
+
+.title__end-text {
+  text-align: left;
+  margin-left: 1%;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 0.7;
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 2rem;
+  }
+  .title__subtitle {
+    font-size: 1.6rem;
+  }
+  .title__subheading {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title__text {
+    font-size: 2rem;
+    margin-bottom: 6px;
+  }
+  .title__subtitle {
+    font-size: 1.3rem;
+  }
+
+  .title__subheading {
+    margin: 0;
+    max-width: 100%;
+  }
 }
