@@ -42,15 +42,20 @@ You can view and interact with the site here: https://g-dilek.github.io/Triplete
 
 You can also clone our Github repo:
 
-`git clone https://github.com/g-dilek/Tripleten-Code-Jam-2024.git
-cd Tripleten-Code-Jam-2024
-npm install
-npm run dev
+`git clone https://github.com/g-dilek/Tripleten-Code-Jam-2024.git`
+
+`cd Tripleten-Code-Jam-2024`
+
+`npm install`
+
+`npm run dev`
 `
 
 ### Results
 
 ## Introduction
+
+You can view the Jupyter Notebook of our data here: https://g-dilek.github.io/Tripleten-Code-Jam-2024/data/data.html
 
 The data collected and used for this project was downloaded from Kaggle. It can be accessed here. Collected through scraping, The dataset contains information on all 63 US national parks.
 
