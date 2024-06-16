@@ -14,7 +14,7 @@ Created by the Redwood Rangers: Grace Persion, Laura Ferguson, Mike Twersky, and
 
 ## Link
 
-You can view and interact with the site here: https://g-dilek.github.io/codejam_june2024
+You can view and interact with the site here: https://g-dilek.github.io/Tripleten-Code-Jam-2024
 
 ### Results
 
