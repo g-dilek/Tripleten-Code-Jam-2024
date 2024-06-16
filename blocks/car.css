@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 0.2;
+  background-color: rgb(243, 243, 243);
+  background-image: url(/images/vec_mountain-bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  background-position: center top;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  gap: 50px;
+  background-color: black;
+}
+
+.mouse-wheel {
+  & .car {
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    width: 150px;
+
+    filter: hue-rotate(300deg) brightness(100%) saturate(120%) sepia(0.5);
+  }
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: Lora, "Times New Roman", serif;
+  font-size: 3.5rem;
+  padding: 11% 0px;
+}
+.title__subtitle {
+  font-family: Lora, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 3.125rem;
+  margin-top: 10px;
+  padding-bottom: 6%;
+}
+
+.subheading {
+  text-align: left;
+  line-height: 1.2;
+  max-width: 50%;
+  margin-left: 10%;
+  font-family: Lora, "Times New Roman", serif;
+  font-size: 1.3rem;
+}
+
+form.example button {
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+  padding: 15px 30px;
+  background: rgb(34, 13, 53);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-image: initial;
+  border-radius: 10px;
+  font-family: Lora, "Times New Roman", serif;
+  font-size: 4.375rem;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.white-section {
+  background-color: rgb(255, 255, 255);
+
+  padding: 1px;
+}
+
+.cards__title-text {
+  text-align: left;
+  margin-left: 1%;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.cards__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+  gap: 20px;
+  padding: 1% 0px;
+}
+
+.card-link {
+  display: block; /* Ensure the link takes up the entire card space */
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+}
+
+.cards__content {
+  padding: 20px; /* Adjust padding as needed */
+  background-color: #ffffff; /* Ensure the clickable area is visually distinct */
+  border-radius: 10px; /* Optional: Rounded corners for card */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+  transition: transform 0.2s ease-in-out; /* Optional: Add a subtle hover effect */
+  text-align: center;
+}
+
+.card__content:hover {
+  transform: translateY(
+    -5px
+  ); /* Optional: Move card slightly upwards on hover */
+}
+
+.cards__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.cards__image {
+  margin-top: 5%;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.cards__description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 1200px) {
+  .cards__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
