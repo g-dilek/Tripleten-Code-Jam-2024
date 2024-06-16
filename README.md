@@ -2,6 +2,22 @@
 
 This is a project created for the June 2024 Code Jam at Tripleten. It was created using HTML, CSS, and Javascript, based on the following.
 
+### Link
+
+You can view and interact with the site here: https://g-dilek.github.io/Tripleten-Code-Jam-2024
+
+### Run locally
+
+You can also clone our Github repo:
+
+`git clone https://github.com/g-dilek/Tripleten-Code-Jam-2024.git`
+
+`cd Tripleten-Code-Jam-2024`
+
+`npm install`
+
+`npm run dev`
+
 ### Design Brief
 
 For the June Code Jam, we challenge the participants to create an optimal route for
@@ -33,23 +49,6 @@ Created by the Redwood Rangers: Grace Persion, Laura Ferguson, Mike Twersky, and
 - TSP
 
 In addition to the above libraries, we also used the OSRM (Open Source Routing Machine) API
-
-### Link
-
-You can view and interact with the site here: https://g-dilek.github.io/Tripleten-Code-Jam-2024
-
-### Run locally
-
-You can also clone our Github repo:
-
-`git clone https://github.com/g-dilek/Tripleten-Code-Jam-2024.git`
-
-`cd Tripleten-Code-Jam-2024`
-
-`npm install`
-
-`npm run dev`
-`
 
 ## Results
 
