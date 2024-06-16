@@ -1,20 +1,40 @@
 ### Tripleten Code Jam 2024
 
-This is a project created for the June 2024 Code Jam at Tripleten. It was created using HTML, CSS, and Javascript, based on a given design brief.
+This is a project created for the June 2024 Code Jam at Tripleten. It was created using HTML, CSS, and Javascript, based on the following.
+
+## Design Brief
+
+For the June Code Jam, we challenge the participants to create an optimal route for
+
+- ice cream delivery
+- a group of friends planning a cross-country road trip
+- a water delivery service ensuring everyone in summer festivals stays hydrated
+- any other summer route of participants’ choice
+
+Our code jam team has decided to create a website that uses data to calculate the optimal route to experience all nine California National Parks.
+
+## Authors
 
 Created by the Redwood Rangers: Grace Persion, Laura Ferguson, Mike Twersky, and Dale Myers
 
-## Project Features
+## Core technologies
 
-- Responsive design for desktop, tablet, and mobile views
-- CSS Grid
-- Hover effects with transitions
-- Flat BEM file structure and organization
-- Interactive data visualization
+- HTML, CSS, and Javascript
+- Jupyter Notebook
 
 ## Link
 
 You can view and interact with the site here: https://g-dilek.github.io/Tripleten-Code-Jam-2024
+
+## Run locally
+
+You can also clone our Github repo:
+
+`git clone https://github.com/g-dilek/Tripleten-Code-Jam-2024.git
+cd Tripleten-Code-Jam-2024
+npm install
+npm run dev
+`
 
 ### Results
 
