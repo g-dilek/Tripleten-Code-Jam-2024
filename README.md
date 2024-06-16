@@ -19,8 +19,20 @@ Created by the Redwood Rangers: Grace Persion, Laura Ferguson, Mike Twersky, and
 
 ## Core technologies
 
-- HTML, CSS, and Javascript
-- Jupyter Notebook
+- HTML
+- CSS
+- Javascript
+- Pandas
+- Numpy
+- Real Expressions
+- Plotly
+- Matplotlib
+- Seaborn
+- Requests
+- JSON
+- TSP
+
+In addition to the above libraries, we also used the OSRM (Open Source Routing Machine) API
 
 ## Link
 
