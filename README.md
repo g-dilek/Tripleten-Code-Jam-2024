@@ -1,6 +1,6 @@
 ## Tripleten Code Jam 2024
 
-This is a project created for the June 2024 Code Jam at Tripleten. It was created using HTML, CSS, and Javascript, based on the following.
+This is a project created for the June 2024 Code Jam at Tripleten. It was created using HTML, CSS, and Javascript, based on the following brief.
 
 ### Link
 
